@@ -3,7 +3,7 @@
 - A Placa-mãe deve possuir o TPM 2.0 (Chip de segurança) e o Secure Boot (Segurança na inicialização do PC)
 
 #Como desabilitar esses Pré-requisitos acima
-Em breve...
+- Executar arquivos e comandos via GUI e CMD
 
 1º Criar um PenDrive de instalação
 - Ir ao site oficial da Microsoft
