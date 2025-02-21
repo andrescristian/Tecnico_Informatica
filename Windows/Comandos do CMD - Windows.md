@@ -1,8 +1,26 @@
-!Comandos CMD do Windows
+Conteúdo deste arquivo<br>
+1º_Desktop <br>
+2º_Rede <br>
+3º_Gerenciamento de Políticas de Grupo <br>
 
-1º_Comandos de rede
 
-#_Verifica a conectividade com qualquer endereço IP
+<h3>1º_Desktop</h3>
+
+#_Faz o reparo de arquivos corrompidos ou ausentes do sistema
+
+    sfc /scannow
+
+<br>    
+
+#_Verifica o status e dados estatísticos da bateria (No caso de notebook). Ao executar este comando, sua saída cria um arquivo de um relatório da bateria
+
+    powercfg /batteryreport
+
+<br>
+
+<h3>2º_Rede</h3>
+
+#_Verifica a conectividade com qualquer endereço IP. Essencial para teste de conexão de internet
 
     ping [IP ou Domínio]
 
@@ -14,13 +32,7 @@
 
 <br>
 
-#_Mostra todas as informações da configuração de rede
-
-    ipconfig
-
-<br>    
-
-#_Mostra informações a mais da configuração de rede
+#_Mostra todas as informações das configurações de rede do computador
 
     ipconfig /all
 
@@ -35,3 +47,18 @@
 #_Limpa o cache de DNS
 
     ipconfig /flushdns
+
+<br>
+
+
+<h3>3º_Gerenciamento de Políticas de Grupo</h3>
+
+#_Força a atualização das Políticas de Grupo (GPOs, ou Group Policy Objects) no Windows, seja no meu computador ou na rede, políticas locais ou de um servidor de domínio
+
+    gpupdate /force
+
+<br>
+
+#_Mostra as informações sobre as GPOs aplicadas, como nome do usuário, nome do computador, configurações de GPO aplicadas, etc
+
+    gpresult /r
