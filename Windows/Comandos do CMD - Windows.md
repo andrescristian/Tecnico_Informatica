@@ -32,6 +32,12 @@ Conteúdo deste arquivo<br>
 
 <br>
 
+#_Mostra os Endereços MAC de cada adaptador de rede (Placa de Rede Ethernet ou Adaptador Wi-fi)
+
+    getmac
+
+<br>
+
 #_Mostra todas as informações das configurações de rede do computador
 
     ipconfig /all
