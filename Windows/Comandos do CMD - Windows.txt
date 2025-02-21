@@ -1,7 +1,0 @@
-!Comandos CMD do Windows
-
-ipconfig                --> Mostra informações sobre a máquina (Endereço IPv4/IPv6/MAC, Hostname, etc)
-ipconfig /displaydns
-ipconfig /flushdns
-tracert -d nº.nº.nº.nº
-getmac
