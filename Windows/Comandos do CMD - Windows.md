@@ -24,6 +24,18 @@ Conteúdo deste arquivo<br>
 
 <br>
 
+#_Faz o encerramento de um Processo pelo PID
+
+    taskkill /PID [nº do PID]
+
+<br>
+
+#_Força o encerramento de um Processo pelo PID
+
+    taskkill /F /PID [nº do PID]
+
+<br>
+
 <h3>2º_Rede</h3>
 
 #_Verifica a conectividade com qualquer endereço IP. Essencial para teste de conexão de internet
