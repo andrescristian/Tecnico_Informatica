@@ -18,6 +18,12 @@ Conteúdo deste arquivo<br>
 
 <br>
 
+#_Mostra os Processos/Tarefas em execução no sistema
+
+    tasklist
+
+<br>
+
 <h3>2º_Rede</h3>
 
 #_Verifica a conectividade com qualquer endereço IP. Essencial para teste de conexão de internet
@@ -29,6 +35,12 @@ Conteúdo deste arquivo<br>
 #_Rastreia a rota do IP
 
     tracert [IP ou Domínio]
+
+<br>
+
+#_Mostra as conexões TCP/IP ativas
+
+    netstat
 
 <br>
 
