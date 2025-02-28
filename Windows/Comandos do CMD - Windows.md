@@ -36,6 +36,18 @@ Conteúdo deste arquivo<br>
 
 <br>
 
+#_Verifica se os softwares instalados estão atualizados
+
+    winget upgrade
+
+<br>
+
+#_Atualiza os softwares desatualizados
+
+    winget upgrade --all
+
+<br>
+
 <h3>2º_Rede</h3>
 
 #_Verifica a conectividade com qualquer endereço IP. Essencial para teste de conexão de internet
