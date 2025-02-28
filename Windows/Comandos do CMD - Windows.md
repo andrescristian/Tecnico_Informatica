@@ -18,6 +18,18 @@ Conteúdo deste arquivo<br>
 
 <br>
 
+#_Faz checagem do disco (reparo de endereçamento, configuração do Windows, ...)
+
+    chkdsk /f
+
+<br>
+
+#_Faz a procura de setores defeituosos físicos no HDD/SSD, salvando recursos positivos e isolando os problemas encontrados
+
+    chkdsk /r
+
+<br>
+
 #_Mostra os Processos/Tarefas em execução no sistema
 
     tasklist
@@ -47,6 +59,13 @@ Conteúdo deste arquivo<br>
     winget upgrade --all
 
 <br>
+
+#_Redefine a pilha Winsock (Windows Sockets) para o estado original. A pilha Winsock é responsável pela comunicação de rede (internet) no Windows
+
+    netsh winsock reset
+
+<br>
+
 
 <h3>2º_Rede</h3>
 
