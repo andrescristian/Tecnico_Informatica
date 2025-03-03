@@ -81,6 +81,12 @@ Conteúdo deste arquivo<br>
 
 <br>
 
+#_Consulta dados sobre servidores DNS
+
+    nslookup [IP ou Domínio]
+
+<br>
+
 #_Mostra as conexões TCP/IP ativas
 
     netstat
