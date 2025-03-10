@@ -117,6 +117,11 @@ Conteúdo deste arquivo<br>
 
 <br>
 
+#_Registra ou atualiza o nome de host do computador no servidor DNS
+
+    ipconfig /registerdns
+
+<br>
 
 <h3>3º_Gerenciamento de Políticas de Grupo</h3>
 
