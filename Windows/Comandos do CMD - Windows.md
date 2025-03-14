@@ -18,17 +18,7 @@ Conteúdo deste arquivo<br>
 
 <br>
 
-#_Faz checagem do disco (reparo de endereçamento, configuração do Windows, ...)
 
-    chkdsk /f
-
-<br>
-
-#_Faz a procura de setores defeituosos físicos no HDD/SSD, salvando recursos positivos e isolando os problemas encontrados
-
-    chkdsk /r
-
-<br>
 
 #_Mostra os Processos/Tarefas em execução no sistema
 
@@ -63,6 +53,29 @@ Conteúdo deste arquivo<br>
 #_Redefine a pilha Winsock (Windows Sockets) para o estado original. A pilha Winsock é responsável pela comunicação de rede (internet) no Windows
 
     netsh winsock reset
+
+<br>
+
+#_Faz checagem do disco (reparo de endereçamento, configuração do Windows, ...)
+
+    chkdsk /f
+
+<br>
+
+#_Faz a procura de setores defeituosos físicos no HDD/SSD, salvando recursos positivos e isolando os problemas encontrados
+
+    chkdsk /r
+
+<br>
+
+#_Os comandos a seguir gerenciam a configuração de Disco (HDD SATA, SSD SATA, SSD NVME M.2, ...) e suas Partições
+
+    diskpart                    --> Entra no terminal de configurações de Disco
+    list disk                   --> Faz a listagem de Discos instalados
+    select disk 0               --> Escolhe um Disco para configurar
+    list partition              --> Faz a listagem de Partições disponíveis no Disco
+    select partition 0          --> Escolhe uma das Partições do Disco
+    delete partition override   --> Exclui uma Partição do Disco escolhido
 
 <br>
 
