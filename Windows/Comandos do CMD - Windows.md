@@ -58,7 +58,7 @@ Conteúdo deste arquivo<br>
 
 #_Faz checagem do disco (reparo de endereçamento, configuração do Windows, ...)
 
-    chkdsk /f
+    chkdsk c:/f
 
 <br>
 
