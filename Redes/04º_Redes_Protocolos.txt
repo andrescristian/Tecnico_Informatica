@@ -23,5 +23,11 @@ Sincronização de horário local:			NTP
 
 #_Protocolos que permitem transferência de dados entre redes:
 TCP (Protocolo de Controle de Transmissão) e UDP (Protocolo de Datagrama de Usuário)
-TCP	--> É orientado à conexão, com envio de pacotes totalmente confiável para entrega para o Destino
-UDP	--> Não é orientado à conexão, sem confiabilidade de entrega de pacotes de dados para o Destino
+
+1º TCP (Protocolo de Controle de Transmissão)
+- É orientado à conexão, com envio de pacotes totalmente confiável para entrega para o Destino
+- É mais lento
+
+2º UDP (Protocolo de Datagrama de Usuário)
+- Não é orientado à conexão, sem confiabilidade de entrega de pacotes de dados para o Destino
+- É mais rápido que o TCP
