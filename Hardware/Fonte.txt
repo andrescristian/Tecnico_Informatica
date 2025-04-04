@@ -14,6 +14,9 @@ estão descritas a seguir
 - Fonte não-modular	    --> É uma fonte com os cabos integrados (Corsair CX550)
 - Fonte semi-modular	--> É uma fonte com os principais cabos integrados, e sem cabos a parte (upgrades - CX650M)
 
+#_PFC Ativo e PFC Passivo (Em breve)
+
+
 #Detalhes extra
 - A Fonte SEMPRE deve ser instalada de cabeça para baixo
 - A Fonte DEVE ser instalada com parafuso sextavada (6 lados)
