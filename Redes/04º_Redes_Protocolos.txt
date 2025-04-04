@@ -15,10 +15,13 @@ SMB	--> 445
 
 Protocolos Web:					HTTP, HTTPS
 Protocolos de Transferência de Arquivos: 	FTP, FTPS
-Protocolos de e-mail: 				SMTP, POP3, IMAP
+Protocolos de E-mail: 				SMTP, POP3, IMAP
 Protocolos de Sistemas de Nomes: 		DNS
 Protocolos de Acesso Remoto: 			SSH, Telnet
-Protocolos de Configuração de Hosts: 		DHCP 
+Protocolos de Configuração de Hosts: 		DHCP
+Sincronização de horário local:			NTP 
 
-TCP	--> É orientado à conexão, com envio de pacotes confiável
-UDP	--> Não é orientado à conexão, sem confiabilidade de entrega de pacotes de dados
+#_Protocolos que permitem transferência de dados entre redes:
+TCP (Protocolo de Controle de Transmissão) e UDP (Protocolo de Datagrama de Usuário)
+TCP	--> É orientado à conexão, com envio de pacotes totalmente confiável para entrega para o Destino
+UDP	--> Não é orientado à conexão, sem confiabilidade de entrega de pacotes de dados para o Destino
